@@ -1,0 +1,50 @@
+{
+  "pages": [
+   "pages/signin/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#cc3333",
+    "navigationBarTitleText": "授权登录",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+  "color": "#a9b7b7",
+  "selectedColor": "#11cd6e",
+  "borderStyle": "white",
+  "list": [
+    {
+      "selectedIconPath": "images/danyehuaban_1.png",
+      "iconPath": "images/danyehuaban_1.png",
+      "pagePath": "pages/signin/index",
+      "text": "发现"
+    },
+    {
+      "selectedIconPath": "images/xiaoxi.png",
+      "iconPath": "images/xiaoxi.png",
+      "pagePath": "pages/signin/index",
+      "text": "消息"
+    },
+    {
+      "selectedIconPath": "images/tomato.png",
+      "iconPath": "images/tomato.png",
+      "pagePath": "pages/signin/index",
+      "text": "番茄钟"
+    },
+    {
+      "selectedIconPath": "images/danyehuaban.png",
+      "iconPath": "images/danyehuaban.png",
+      "pagePath": "pages/signin/index",
+      "text": "排行"
+    },
+      {
+        "selectedIconPath": "images/people.png",
+        "iconPath": "images/people.png",
+        "pagePath": "pages/signin/index",
+        "text": "个人"
+      }
+  ]
+}
+}
