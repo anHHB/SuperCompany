@@ -1,0 +1,53 @@
+
+<view class="cu-chat">
+  <view class="cu-item self">
+    <view class="main">
+      <view class="content bg-green shadow">
+        <text>啊哈？</text>
+      </view>
+    </view>
+    <view class="cu-avatar radius" style="background-image:url(https://pic1.zhimg.com/80/v2-15c94838668e19fff0a596ccfa3705a3_hd.jpg);"></view>
+    <view class="date">Wed 13:23</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://pic3.zhimg.com/80/v2-ccfdc90c69dce8e0227960b45aa53c02_hd.jpg);"></view>
+    <view class="main">
+      <view class="content shadow">
+        <text>第一步，渲染列表，在组件上使用wx:for控制属性绑定一个数组，即可使用数组中各项的数据重复渲染该组件。默认数组的当前项的下标变量名默认为index，数组当前项的变量名默认为item</text>
+      </view>
+    </view>
+    <view class="date "> 17:33</view>
+  </view>
+  <view class="cu-item self">
+    <view class="main">
+      <image src="https://pic2.zhimg.com/v2-790d4ae09b819fa023bd04489173a6e9_b.jpg" class="radius" mode="widthFix"></image>
+    </view>
+    <view class="cu-avatar radius" style="background-image:url(https://pic1.zhimg.com/80/v2-15c94838668e19fff0a596ccfa3705a3_hd.jpg);"></view>
+    <view class="date"> 13:23</view>
+  </view>
+
+  <view class="cu-item">
+    <view class="cu-avatar radius" style="background-image:url(https://pic3.zhimg.com/80/v2-ccfdc90c69dce8e0227960b45aa53c02_hd.jpg);"></view>
+    <view class="main">
+      <view class="content shadow">
+        <text>在吗？</text>
+      </view>
+    </view>
+    <view class="date "> 20:20</view>
+  </view>
+
+</view>
+
+  
+
+<view class="cu-bar foot input {{InputBottom!=0?'cur':''}}" style="bottom:{{InputBottom}}px">
+  <view class="action">
+    <text class="cuIcon-sound text-grey"></text>
+  </view>
+  <input class="solid-bottom" bindfocus="InputFocus" bindblur="InputBlur" adjust-position="{{false}}" focus="{{false}}" maxlength="300" cursor-spacing="10"></input>
+  <view class="action">
+    <text class="cuIcon-emojifill text-grey"></text>
+  </view>
+  <button class="cu-btn bg-green shadow">发送</button>
+</view>

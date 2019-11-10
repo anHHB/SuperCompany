@@ -1,0 +1,58 @@
+<view wx:if="{{isHide}}">
+    <view wx:if="{{canIUse}}" >
+        <view class='header'>
+            <image src='/images/wx_login.png'></image>
+        </view>
+
+        <view class='content'>
+            <view>申请获取以下权限</view>
+            <text>获得你的公开信息(昵称，头像等)</text>
+        </view>
+
+        <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+            授权登录
+        </button>
+    </view>
+    <view wx:else>请升级微信版本</view>
+</view>
+<view wx:else>
+
+<view><view class="bg">
+  <view class="head">
+    <view class="headIcon">
+      <image src="{{userInfo.avatarUrl}}" style="width:70px;height:70px;"></image>
+    </view>
+    <view class="login">
+      {{userInfo.nickName}}
+    </view>
+  </view>
+  <button class="button" open-type="getUserInfo" wx:if="{{hasUserInfo}}" bindgetuserinfo="doAuthorization"> 微信登录 </button>
+</view>
+
+<view class="line"></view>
+<view class="item">
+  <view class="title">学习计划</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+
+<view class="line"></view>
+<view class="item">
+  <view class="title"  open-type="contact">意见反馈</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+
+<view class="line"></view>
+<view class="item">
+  <view class="title">设置</view>
+  <view class="detail2">
+    <text> ></text>
+  </view>
+</view>
+<view class="hr"></view>
+</view>
+
+</view>

@@ -1,0 +1,65 @@
+{
+  "pages": [
+   "pages/signin/index",
+   "pages/chatlist/chatlist",
+   "pages/map/map",
+   "pages/tomato/tomato",
+   "pages/ranking/ranking",
+   "pages/chat/chat",
+   "pages/tomato_setting/setting",
+   "pages/tomato_logs/logs"
+
+  ],
+
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#cc3333",
+    "navigationBarTitleText": "授权登录",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+  "color": "#a9b7b7",
+  "selectedColor": "#11cd6e",
+  "borderStyle": "white",
+  "list": [
+    {
+      "selectedIconPath": "images/danyehuaban_1.png",
+      "iconPath": "images/danyehuaban_1.png",
+      "pagePath": "pages/map/map",
+      "text": "发现"
+    },
+    {
+      "selectedIconPath": "images/xiaoxi.png",
+      "iconPath": "images/xiaoxi.png",
+      "pagePath": "pages/chatlist/chatlist",
+      "text": "消息"
+    },
+    {
+      "selectedIconPath": "images/tomato.png",
+      "iconPath": "images/tomato.png",
+      "pagePath": "pages/tomato/tomato",
+      "text": "番茄钟"
+    },
+    {
+      "selectedIconPath": "images/danyehuaban.png",
+      "iconPath": "images/danyehuaban.png",
+      "pagePath": "pages/ranking/ranking",
+      "text": "排行"
+    },
+    {
+      "selectedIconPath": "images/people.png",
+      "iconPath": "images/people.png",
+      "pagePath": "pages/signin/index",
+      "text": "个人"
+    }
+  ]
+}
+}

@@ -1,0 +1,86 @@
+  <view class="cu-list menu-avatar">
+    <navigator class="cu-item" bindtouchstart="ListTouchStart" bindtouchmove="ListTouchMove" bindtouchend="ListTouchEnd" url="../chat/chat">
+      <view class="cu-avatar round lg" style="background-image:url(https://pic3.zhimg.com/80/v2-ccfdc90c69dce8e0227960b45aa53c02_hd.jpg);"></view>
+      <view class="content">
+        <view>
+          <text class="text-cut">小明</text>
+          <view class="cu-tag round bg-blue sm">数字电路/大学物理</view>
+        </view>
+        <view class="text-gray text-sm flex">
+          <text class="text-cut">在吗？
+          </text>
+        </view>
+      </view>
+      <view class="action">
+        <view class="text-grey text-xs">22:20</view>
+        <view class="cu-tag round bg-red sm">1</view>
+      </view>
+    </navigator>
+
+    <view class="cu-item">
+      <view class="cu-avatar round lg" style="background-image:url(https://pic4.zhimg.com/80/v2-652937204b9e272c7fcdf3fa9d848c14_hd.jpg);">
+      </view>
+      <view class="content">
+        <view>
+          <text class="text-cut">小白</text>
+          <view class="cu-tag round bg-blue sm">英语六级</view>
+        </view>
+        <view class="text-gray text-sm flex">
+          <text class="text-cut">The truth of her life was a desire to see beyond the surface for a glimpse of what it is that matters. She found beauty and grace and they befriended her, and showed her what is real.</text>
+        
+        </view>
+      </view>
+      <view class="action">
+        <view class="text-grey text-xs">22:02</view>
+        <view class="cu-tag round bg-red sm">5</view>
+      </view>
+    </view>
+    <view class="cu-item ">
+      <view class="cu-avatar round lg" style="background-image:url(https://pic2.zhimg.com/80/v2-290324276f7beaea414ed7eb6d6782ec_hd.jpg);"></view>
+      <view class="content">
+        <view>
+          <text class="text-cut">小黑</text>
+          <view class="cu-tag round bg-blue sm">python</view>
+        </view>
+        <view class="text-gray text-sm flex">
+          <text class="text-cut">给你资料~</text>
+        </view>
+      </view>
+      <view class="action">
+        <view class="text-grey text-xs">19:45</view>
+        <view class="cu-tag round bg-red sm">3</view>
+      </view>
+    </view>
+    <view class="cu-item grayscale">
+      <view class="cu-avatar round lg" style="background-image:url(https://pic3.zhimg.com/80/v2-8b0fad9a1fd40f7eac65581902145de1_hd.jpg);"></view>
+      <view class="content">
+        <view>
+          <text class="text-cut">DAISY</text>
+          <view class="cu-tag round bg-blue sm">教资</view>
+        </view>
+        <view class="text-gray text-sm flex">
+          <text class="text-cut"> 加油鸭！！！</text>
+        </view>
+      </view>
+      <view class="action">
+        <view class="text-grey text-xs">18:20</view>
+      </view>
+    </view>
+    <view class="cu-item cur">
+      <view class="cu-avatar round lg" style="background-image:url(https://pic3.zhimg.com/80/v2-2cef9ace76612cb75a5033051cd40917_hd.jpg);">
+        
+      </view>
+      <view class="content">
+        <view>
+          <text class="text-cut">喵喵123</text>
+          <view class="cu-tag round bg-blue sm">苦学爬虫ing</view>
+        </view>
+        <view class="text-gray text-sm flex">
+          <text class="text-cut"> 学习啦！ </text>
+        </view>
+      </view>
+      <view class="action">
+        <view class="text-grey text-xs">17:40</view>
+      </view>
+    </view>
+  </view>
